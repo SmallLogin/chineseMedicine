@@ -1,0 +1,161 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.g_body{
+    /*background-color: #ffdfac;*/
+    background-image: url("../images/bgp4.jpg");
+    background-repeat: repeat;
+    height: 100%;
+    display: block;
+}
+
+.title{
+    height: 110px;
+    width: 960px;
+    margin: auto;
+    background-color: #fff6ce;
+    background-image: url("../images/top_bg.jpg");
+    box-sizing: border-box;
+}
+
+.title #icon1{
+    background-image: url("../images/5.png");
+    width: 80px;
+    height: 80px;
+    margin: 25px 25px;
+    float: left;
+}
+
+@font-face{font-family:'ZoomlaXingtiJ3';
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ3.eot?#iefix'); /* IE9 */
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ3.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
+    url('https://code.z01.com/font/ZoomlaXingtiJ3.woff') format("woff"), /* chrome、firefox */
+    url('https://code.z01.com/font/ZoomlaXingtiJ3.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("http://code.z01.com/font/ZoomlaXingtiJ3.svg#ZoomlaXingtiJ3") format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;}
+
+.full_page .title .web-font{
+    font-family:"ZoomlaXingtiJ3" !important;
+    font-size: 60px;
+    line-height: 128px;
+    text-align: center;
+}
+
+.nav{
+    width: 960px;
+    height: 50px;
+    margin: auto;
+    background-color: #F1EFE2;
+    border-top: 1px dashed #C7905D;
+    box-sizing: border-box;
+}
+.nav .itemName{
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 5px;
+    line-height: 40px;
+}
+
+.itemName span{
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.itemName a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav #current span{
+    background-color:  #4ab344;
+    border-radius: 25px;
+    color: #f0f0f0;
+}
+
+.area{
+    width: 960px;
+    height: 516px;
+    /*background-color: #d6ffea;*/
+    margin: auto;
+}
+
+.area .sf{
+    width: 16%;
+    height: 100%;
+    background-color: #fff;
+    background-image: url("../images/11.jpg");
+    float: left;
+}
+
+.sf p{
+    display: block;
+    font-size: 40px;
+    line-height: 55px;
+    margin: 50px;
+}
+
+.area .content{
+    float: left;
+    width: 68%;
+    height: 516px;
+    background-color: #EDFBE2;
+    /*margin: 75px auto;*/
+}
+
+.area .content p{
+    display: block;
+    text-indent: 2em;
+    margin: 3% 3% 0 3% ;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.contact{
+    position: static;
+    width: 960px;
+    height: 60px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.contact .contactImg{
+    position: absolute;
+    margin-top: 7px;
+    width: 960px;
+    height: 53px;
+    background-color: #fff;
+    background-image: url("../images/4.png");
+}
+
+.contact span{
+    display: block;
+    width: 960px;
+    height: 53px;
+    text-align: center;
+    line-height: 53px;
+    font-size: 18px;
+}
+
+.footer{
+    width: 960px;
+    height: 53px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.footer span{
+    display: block;
+    width: 960px;
+    height: 53px;
+    text-align: center;
+    line-height: 53px;
+    color: #c9c9c9;
+}
